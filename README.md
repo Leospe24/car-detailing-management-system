@@ -45,3 +45,24 @@ As the dataset grows, query performance becomes critical.
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/Leospe24/car-detailing-management-system.git](https://github.com/Leospe24/car-detailing-management-system.git)
+2. **Database Configuration:**
+   * Import the provided `.sql` schema file into your local **SQL Server instance**.
+   * Update the `App.config` connection string with your local server credentials to establish the database handshake.
+
+3. **Build & Run:**
+   * Open the `.sln` (Solution) file in **Visual Studio 2022**.
+   * Restore **NuGet packages** to ensure all architectural libraries are present.
+   * Press `F5` or click **Start** to compile and build the environment.
+
+
+
+## 🧠 Industry Standards Applied
+* **SOLID Principles:** Decoupled UI logic from Database persistence to ensure the system is modular and maintainable.
+* **DRY (Don't Repeat Yourself):** Centralized connection management logic to reduce memory overhead and prevent connection leaks.
+* **Referential Integrity:** Enforced strict **Foreign Key constraints** at the database level to prevent orphan data records and ensure high data reliability.
+
+---
+
+**Developer:** Patrick Anim  
+**Portfolio:** [fullstack-dev-portfolio.netlify.app](https://fullstack-dev-portfolio.netlify.app)  
+**LinkedIn:** [linkedin.com/in/patrick-anim-dev](https://linkedin.com/in/patrick-anim-dev)
