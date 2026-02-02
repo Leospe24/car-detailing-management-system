@@ -1,0 +1,11 @@
+# Visual Studio Build Folders
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
+# Visual Studio 2022 cache
+.vs/
